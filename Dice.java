@@ -17,10 +17,10 @@ class Dice{
 	System.out.println("Die 2: "+d2);
 	System.out.println("Total value: "+(d1+d2));
 	if((d1+d2)>7){
-	    System.out.println("You won");
+	    System.out.println(name+" won!");
 	}
 	else{
-	    System.out.println("You lost");
+	    System.out.println(name+" lost!");
 	}
     }
 }
